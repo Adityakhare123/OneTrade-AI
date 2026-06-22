@@ -1,4 +1,4 @@
-# 📈 OneTradeAI - AI Trading Dashboard
+#  OneTradeAI - AI Trading Dashboard
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:3b82f6,100:8b5cf6&height=220&section=header&text=OneTradeAI&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=React%20%7C%20Flask%20%7C%20SQLite%20%7C%20Machine%20Learning%20Trading%20Dashboard&descAlignY=60&descAlign=50&descSize=18" />
@@ -18,7 +18,7 @@
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 **OneTradeAI** is a demo/training-style AI trading dashboard built using **React**, **Flask**, **SQLite**, and **Python ML libraries**.
 
@@ -33,28 +33,26 @@ The application allows users to:
 * Run backend prediction logic for pending trades
 * Use market data to generate AI-based buy/sell suggestions
 
-> ⚠️ This project is created for learning and portfolio purposes only. It is not financial advice and should not be used for real-money trading decisions.
+---
+
+##  Key Features
+
+*  User signup and login
+*  Trading dashboard
+*  Add new trade entries
+*  Profit target tracking
+*  Stop-loss tracking
+*  Recent trade history
+*  AI/ML-based prediction endpoint
+*  Market data fetching using `yfinance`
+*  LSTM/TensorFlow-based prediction logic
+*  SQLite database integration
+*  React frontend with Flask REST API backend
+*  Premium dark UI design
 
 ---
 
-## ✨ Key Features
-
-* 🔐 User signup and login
-* 📊 Trading dashboard
-* ➕ Add new trade entries
-* 🎯 Profit target tracking
-* 🛡️ Stop-loss tracking
-* 📜 Recent trade history
-* 🤖 AI/ML-based prediction endpoint
-* 📈 Market data fetching using `yfinance`
-* 🧠 LSTM/TensorFlow-based prediction logic
-* 💾 SQLite database integration
-* 🌐 React frontend with Flask REST API backend
-* 🎨 Premium dark UI design
-
----
-
-## 🧰 Tech Stack
+##  Tech Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,js,python,flask,sqlite,html,css,bootstrap,github,git,vscode" />
@@ -87,7 +85,7 @@ The application allows users to:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 OneTrade-AI/
@@ -141,7 +139,7 @@ OneTrade-AI/
 
 ---
 
-## ⚙️ How the App Works
+##  How the App Works
 
 ```text
 User opens React frontend
@@ -165,7 +163,7 @@ Trade status can be updated based on prediction
 
 ---
 
-## 🔗 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint                    | Description                             |
 | ------ | --------------------------- | --------------------------------------- |
@@ -177,7 +175,7 @@ Trade status can be updated based on prediction
 
 ---
 
-## 🧪 API Testing Examples
+##  API Testing Examples
 
 ### Signup
 
@@ -231,7 +229,7 @@ GET http://127.0.0.1:5000/recent_trades?userId=1
 
 ---
 
-## 📦 Installation
+##  Installation
 
 Clone the repository:
 
@@ -242,7 +240,7 @@ cd OneTrade-AI
 
 ---
 
-## ▶️ Backend Setup
+##  Backend Setup
 
 Go to backend folder:
 
@@ -311,7 +309,7 @@ Expected response:
 
 ---
 
-## ▶️ Frontend Setup
+##  Frontend Setup
 
 Open a new terminal and go to frontend folder:
 
@@ -339,7 +337,7 @@ http://localhost:3000
 
 ---
 
-## 🧠 Prediction Logic
+##  Prediction Logic
 
 The prediction module is located in:
 
@@ -360,7 +358,7 @@ The prediction logic:
 
 ---
 
-## 🖥️ Frontend Pages
+##  Frontend Pages
 
 | Route        | Page              |
 | ------------ | ----------------- |
@@ -376,7 +374,7 @@ The prediction logic:
 
 ---
 
-## 🎨 UI Design
+##  UI Design
 
 The project includes a premium dark trading dashboard UI with:
 
@@ -391,7 +389,7 @@ The project includes a premium dark trading dashboard UI with:
 
 ---
 
-## 🧪 Testing Checklist
+##  Testing Checklist
 
 Use this checklist to verify the project:
 
@@ -420,7 +418,7 @@ Amount: 1000
 
 ---
 
-## 📋 Requirements
+##  Requirements
 
 ### Backend
 
@@ -449,7 +447,7 @@ axios
 
 ---
 
-## 🛠️ Common Issues
+##  Common Issues
 
 ### 1. `ModuleNotFoundError: No module named flask_cors`
 
@@ -502,7 +500,7 @@ Then debug `/predict`.
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 * Improve prediction endpoint response handling
 * Add JWT-based authentication
@@ -523,7 +521,7 @@ Then debug `/predict`.
 
 ---
 
-## 📌 Current Project Status
+##  Current Project Status
 
 The current project supports:
 
@@ -546,7 +544,7 @@ Some areas may still need cleanup:
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:020617,100:3b82f6&height=120&section=footer&text=Aditya%20Khare&fontSize=36&fontColor=ffffff&animation=fadeIn" />
@@ -565,9 +563,9 @@ Some areas may still need cleanup:
 
 ---
 
-## ⭐ Support
+##  Support
 
-If you like this project, consider giving it a ⭐ on GitHub.
+If you like this project, consider giving it a on GitHub.
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:3b82f6,100:020617&height=120&section=footer" />
