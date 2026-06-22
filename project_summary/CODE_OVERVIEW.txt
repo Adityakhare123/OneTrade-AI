@@ -1,0 +1,69 @@
+PROJECT: OneTradeAI
+
+ROOT FILES:
+- README.md -> short project title only, so it does not contain full setup details.
+- Paper.txt -> likely project report / notes.
+
+BACKEND:
+1. backend/backend/main.py
+   - Creates Flask app.
+   - Enables CORS.
+   - Configures SQLite database.
+   - Registers routes for login, signup, add trade, recent trades, and prediction.
+
+2. backend/backend/controllers/auth.py
+   - Login endpoint checks email/password.
+   - Signup endpoint adds a user to the database.
+
+3. backend/backend/controllers/trade.py
+   - AddTrade: receives trade details and saves them.
+   - RecentTrades: fetches latest trades for a specific user.
+   - ExecuteTrade: exists but is not fully wired into the API flow.
+
+4. backend/backend/controllers/predict.py
+   - Pulls pending trades.
+   - Uses yfinance to fetch market data.
+   - Uses TensorFlow/LSTM model logic to predict price direction.
+   - Compares predicted signal with RSI and profit/stop-loss conditions.
+   - Updates trade status after evaluation.
+
+5. backend/backend/models/User.py
+   - Database model for user records.
+
+6. backend/backend/models/Trades.py
+   - Database model for trade records.
+
+7. backend/backend/lib/db.py
+   - Creates the shared SQLAlchemy object.
+
+FRONTEND:
+1. frontend/frontend/src/App.js
+   - Defines all application routes.
+   - Maps URL paths to components.
+
+2. frontend/frontend/src/components/Login.js
+   - Login form.
+   - Sends credentials to the backend and stores the response in localStorage.
+
+3. frontend/frontend/src/components/SignUp.js
+   - Signup form.
+   - Sends email/password data to the backend.
+
+4. frontend/frontend/src/components/Dashboard.js
+   - Main dashboard page.
+   - Fetches recent trades for logged-in user.
+   - Allows adding new trades.
+
+5. frontend/frontend/src/components/Home.js, Features.js, Pricing.js, Contact.js
+   - Marketing / informational pages.
+
+6. frontend/frontend/src/components/MyProfile.js, Settings.js
+   - Profile and settings screens.
+
+PREDICTION / ML AREA:
+- The backend prediction logic is built around market data downloading and a sequence model.
+- It tries to decide whether to place a buy or sell recommendation based on predicted price and RSI thresholds.
+- The code is useful for understanding the trading flow, but it may need optimization or cleanup for production use.
+
+SHARING NOTE:
+- This file pair gives a quick technical summary you can send to another chat or teammate.
