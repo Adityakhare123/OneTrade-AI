@@ -354,7 +354,6 @@ The prediction logic:
 * Compares predicted direction with profit and stop-loss rules
 * Updates trade status after evaluation
 
-> Note: The `/predict` endpoint may require additional ML dependencies like TensorFlow, yfinance, pandas, and TA-Lib. TA-Lib can be difficult to install on Windows, so prediction logic may need separate setup or cleanup.
 
 ---
 
